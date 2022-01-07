@@ -60,6 +60,7 @@ body{
     position: relative;
     left: 70px;
     top:100px;
+    font-family: 'Manrope';
    
 }
 
@@ -76,8 +77,8 @@ color: white;
 font-size: larger;
 font-weight: bolder;
 text-align: center;
-padding-top: 5px;
-
+padding-top: 30px;
+z-index: 1100;
 font-family: 'Manrope';
 
 }
@@ -90,7 +91,7 @@ font-family: 'Manrope';
     border-radius: 10px;
     position: relative;
     float: right;
-    bottom:400px;
+    bottom:450px;
     
 
 }
@@ -98,10 +99,7 @@ font-family: 'Manrope';
 {
     background-image: linear-gradient(to right,#FC5EFF,#CB52F8,#6E54EC); 
 }
-.wake
-{
-    font-family: 'Manrope';
-}
+
 .w
 {
     position: relative;
@@ -145,10 +143,7 @@ font-family: 'Manrope';
   }
 
 
-  .lunch
-{
-    font-family: 'Manrope';
-}
+
 
 .spoon1
 {
@@ -193,12 +188,6 @@ font-family: 'Manrope';
   }
 
 
-
-
-  .dinner
-  {
-      font-family: 'Manrope';
-  }
   
   .din1
   {
@@ -353,7 +342,7 @@ color: #8A11BF;
     
 }
 
-.amorpm
+#amorpm
 {
     position:relative;
     left:107px;
@@ -364,7 +353,7 @@ color: #8A11BF;
     
 }
 
-.textcontainer
+#textcontainer
 {
     color:#8A11BF ;
     font-family: 'manrope';
@@ -373,13 +362,18 @@ color: #8A11BF;
     text-align: center;
     
 }
-.imagecontainer
+#imagecontainer
 {
-    background-image: url("nice.png");
+    background-image: url("resize.png");
+  
+  background-size:contain;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 500px;
-  width: 600px;
+  height: 400px;
+  width: 400px;
+  position: relative;
+  left:80px;
+  top:80px;
+ 
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
