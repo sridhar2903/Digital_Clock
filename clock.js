@@ -89,17 +89,17 @@ function hello()
 
    if(v==hourr)
    {
-     document.getElementById("imagecontainer").style.backgroundImage="url(wakeup_image.PNG)";
+     document.getElementById("imagecontainer").style.backgroundImage="url(wakeup_image.png)";
      document.getElementById("textcontainer").innerHTML="WAKE UP !!";     
 }
 else if(v1==hourr)
 {
-  document.getElementById("imagecontainer").style.backgroundImage="url(lunch_image.PNG)";
+  document.getElementById("imagecontainer").style.backgroundImage="url(lunch_image.png)";
   document.getElementById("textcontainer").innerHTML="LETS HAVE SOME LUNCH !!";     
 }
 else if(v2==hourr)
 {
-  document.getElementById("imagecontainer").style.backgroundImage="url(goodnight_image.PNG)";
+  document.getElementById("imagecontainer").style.backgroundImage="url(goodnight_image.png)";
   document.getElementById("textcontainer").innerHTML="GOOD NIGHT !!";     
 }
 
