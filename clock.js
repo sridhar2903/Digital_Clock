@@ -73,6 +73,10 @@ function clock()
           hours.innerHTML=12;
      }
 
+
+
+   
+
 }
 
 setInterval(clock,1000);
@@ -108,6 +112,7 @@ else if(v=="x"||v1=="x"||v2=="x")
   document.getElementById("textcontainer").innerHTML="HELLO AND WELCOME TO THE DIGITAL CLOCK PAGE :)";     
 
 }
+
 
 
 }
