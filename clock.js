@@ -102,6 +102,36 @@ else if(v2==hourr)
   document.getElementById("imagecontainer").style.backgroundImage="url(goodnight_image.png)";
   document.getElementById("textcontainer").innerHTML="GOOD NIGHT !!";     
 }
+else if(v=="x"||v1=="x"||v2=="x")
+{
+     document.getElementById("imagecontainer").style.backgroundImage="url(resize.png)";
+  document.getElementById("textcontainer").innerHTML="HELLO AND WELCOME TO THE DIGITAL CLOCK PAGE :)";     
+
+}
 
 
+}
+
+function newblock()
+{
+     var jsdiv=document.createElement("div");
+     jsdiv.id="jsnew";
+     document.getElementById("jsblock").appendChild(jsdiv);
+
+     var x=document.getElementById("dropdown");
+     var y=x.options[x.selectedIndex].text;
+     var l=document.getElementById("dropdown1");
+     var j=l.options[l.selectedIndex].text;
+     var d=document.getElementById("dropdown2");
+     var k=d.options[d.selectedIndex].text;
+     document.getElementById("jsnew").innerHTML=" WAKE UP TIME: " + y+"<br>" + "<br> LUNCH TIME: " +j+"<br>" + "<br>NAP TIME: " +k;
+
+
+    
+
+   
+
+
+
+  
 }
