@@ -68,7 +68,7 @@ function clock()
      {
           hours.innerHTML=11;
      }
-     if(a==24)
+     if(a==00)
      {
           hours.innerHTML=12;
      }
